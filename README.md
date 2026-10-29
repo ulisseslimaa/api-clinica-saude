@@ -85,30 +85,6 @@ DB_PASSWORD=sua-senha
 
 O Spring Boot carrega esse arquivo automaticamente durante a inicialização. O `.env` contém informações sensíveis, está incluído no `.gitignore` e não deve ser enviado ao GitHub.
 
-## ⚙️ Executando os testes
-
-### Windows
-
-```powershell
-.\mvnw.cmd test
-```
-
-### Linux/macOS
-
-Na primeira execução, dê permissão ao Maven Wrapper:
-
-```bash
-chmod +x mvnw
-```
-
-Depois, execute:
-
-```bash
-./mvnw test
-```
-
-Os testes automatizados validam o comportamento básico da aplicação.
-
 ## ▶️ Executando a aplicação
 
 ### Windows
